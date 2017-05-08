@@ -1,5 +1,7 @@
-Boundary Process Memory Plugin
-------------------------------
+Boundary Process Memory Plugin (Deprecated)
+-------------------------------------------
+
+### Note : This plugin is deprecated, use [Process plugin](https://help.truesight.bmc.com/hc/en-us/articles/214110829-Process-Plugin) instead.
 
 Displays memory use (RSS) for specific processes. Use Regular Expressions to specify a process name, process full path, and/or the process current working directory. Currently only works for Linux based systems that support procfs (i.e. have a/proc directory). **Note**: to monitor processes with elevated priviledges requires running the meter as root, which is not recommended.
 
